@@ -30,5 +30,4 @@ window.contentView.addSubview(label);
 
 window.center;
 window.title = 'Hello World';
-window.target = appDelegate;
 window.makeKeyAndOrderFront(window);
