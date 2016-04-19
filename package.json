@@ -1,0 +1,13 @@
+{
+  "name": "slick",
+  "version": "0.0.1",
+  "description": "A port of React Native to OS X using the \"JavaScript for Automation\" framework",
+  "scripts": {
+    "start": "rm -rf index.app && osacompile -x -s -o index.app -l JavaScript index.js && open index.app"
+  },
+  "author": {
+    "name" : "Lucas Wojciechowski",
+    "email" : "lucas@lucaswoj.com"
+  },
+  "license": "ISC"
+}
